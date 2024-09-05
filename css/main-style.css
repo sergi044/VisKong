@@ -20,10 +20,20 @@
 /* header + nav*/
 .header-container{
     display: flex;
-    height: 40px;
+    height: 80px;
     box-sizing: border-box;
     background: #f3f3f3;
+    width: 100vw;
+    justify-content: space-between;
 }
+
+.container-logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
 
 .logo{
     height: 100%;
@@ -34,6 +44,12 @@
     background-repeat: no-repeat;
 }
 
+.nav-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .nav-container ul{
     display: flex;
 }
@@ -42,4 +58,7 @@ ul li{
     margin: 0 15px;
 }
 
+li a{
+    font-size: 24px;
+}
 /* header + nav*/
