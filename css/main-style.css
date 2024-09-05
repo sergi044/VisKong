@@ -13,6 +13,15 @@
     background: #f3f3f3;
 }
 
+.logo{
+    height: 100%;
+    width: 60px;
+    background-image: url("../icons/logo2.PNG");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
 .nav-container ul{
     display: flex;
 }
