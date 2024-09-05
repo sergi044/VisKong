@@ -11,6 +11,8 @@
     height: 80px;
     box-sizing: border-box;
     background: #f3f3f3;
+    width: 100vw;
+    justify-content: space-between;
 }
 
 .logo{
