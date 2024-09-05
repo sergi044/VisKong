@@ -8,7 +8,7 @@
 /* header + nav*/
 .header-container{
     display: flex;
-    height: 40px;
+    height: 70px;
     box-sizing: border-box;
     background: #f3f3f3;
 }
@@ -30,4 +30,7 @@ ul li{
     margin: 0 15px;
 }
 
+li a{
+    font-size: 24px;
+}
 /* header + nav*/
