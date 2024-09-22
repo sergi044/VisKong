@@ -50,7 +50,7 @@
     height: 100%;
     width: 60px;
     background-image: url("../icons/logo2.PNG");
-    background-size: cover;
+    background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
 }
@@ -80,3 +80,38 @@ li a{
     font-size: 24px;
 }
 /* header + nav*/
+
+/*titulo main page*/
+
+.container-portada{
+    width: 60vw;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: transparent;
+}
+
+.titulo-portada{
+    text-align: left;
+    width: 60%;
+    padding: 40px;
+    margin: 0 0;
+    background: transparent;
+
+}
+
+.eslogan{
+    font-size: 48px;
+    color: #ffffff;
+    line-height: 1.2;
+    margin-bottom: 20px;
+    font-family: 'Protest Guerrilla', sans-serif;
+    background: transparent;
+
+}
+
+.parrafo{
+    background: transparent;
+
+}
